@@ -16,7 +16,7 @@
 #
 #
 # This leverages the loki_patch utility created by djrbliss which allows us
-# to bypass the bootloader checks on jfltevzw and jflteatt
+# to bypass the bootloader checks on jfltevzw and jflteatt and jfltedcm
 # See here for more information on loki: https://github.com/djrbliss/loki
 #
 

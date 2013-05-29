@@ -1,7 +1,7 @@
 #!/sbin/sh
 #
 # This leverages the loki_patch utility created by djrbliss which allows us
-# to bypass the bootloader checks on jfltevzw and jflteatt
+# to bypass the bootloader checks on jfltevzw and jflteatt and jfltedcm
 # See here for more information on loki: https://github.com/djrbliss/loki
 #
 #
@@ -11,8 +11,10 @@
 # Bootloader Version I337UCUAMDB (AT&T)
 # Bootloader Version I337UCUAMDL (AT&T)
 # Bootloader Version I545VRUAMDK (Verizon)
+# Bootloader Version I545VRUAMDK (Verizon)
+# Bootloader Version SC04EOMUAMDI (DoCoMo)
 
-cat /proc/cmdline|egrep -q '(bootloader=I337UCUAMDB)|(bootloader=I337UCUAMDL)|(bootloader=I545VRUAMDK)'
+cat /proc/cmdline|egrep -q '(bootloader=I337UCUAMDB)|(bootloader=I337UCUAMDL)|(bootloader=I545VRUAMDK)|(bootloader=SC04EOMUAMDI)'
 if [ $? = 0 ];
     then
        cd /tmp
