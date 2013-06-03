@@ -34,7 +34,8 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SC-04E
 
-# loki
-PRODUCT_COPY_FILES += \
-    device/samsung/jfltedcm/loki/loki.sh:system/bin/loki.sh \
-    device/samsung/jfltedcm/loki/loki_patch:system/bin/loki_patch
+PRODUCT_PACKAGES += \
+    loki_patch \
+    loki_flash \
+    loki.sh \
+    valid_bootloaders
