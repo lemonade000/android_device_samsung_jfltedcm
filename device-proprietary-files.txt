@@ -6,3 +6,4 @@ fonts/truetypeEmoji.ttf
 
 # SPModePush
 app/SPModePushNotifier.apk
+etc/apns-conf.xml
