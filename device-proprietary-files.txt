@@ -1,1 +1,5 @@
 # Add device specific blobs here
+
+# emoji_dcm
+lib/libemoji_docomo.so
+fonts/truetypeEmoji.ttf
