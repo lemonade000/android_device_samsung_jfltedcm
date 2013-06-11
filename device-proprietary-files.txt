@@ -3,3 +3,6 @@
 # emoji_dcm
 lib/libemoji_docomo.so
 fonts/truetypeEmoji.ttf
+
+# SPModePush
+app/SPModePushNotifier.apk
