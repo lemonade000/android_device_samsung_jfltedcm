@@ -33,10 +33,3 @@ PRODUCT_DEVICE := jfltedcm
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SC-04E
-
-PRODUCT_PACKAGES += \
-    loki_patch \
-    loki_flash \
-    loki.sh \
-    loki_bootloaders \
-    unlocked_bootloaders
