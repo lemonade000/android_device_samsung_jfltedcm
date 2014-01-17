@@ -30,6 +30,7 @@
 TARGET_OTA_ASSERT_DEVICE := jfltedcm
 
 # Kernel
+TARGET_KERNEL_VARIANT_CONFIG := cyanogen_jf_variant_defconfig
 TARGET_KERNEL_CONFIG         := jf_dcm_defconfig
 
 # loki
