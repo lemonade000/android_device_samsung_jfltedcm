@@ -17,6 +17,9 @@
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/jfltedcm/jfltedcm-vendor.mk)
 
+# aojp common
+$(call inherit-product-if-exists, vendor/aojp/config/aojp.mk)
+
 PRODUCT_PACKAGES += \
     loki_patch \
     loki_flash \
@@ -28,17 +31,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltedcm/overlay
 ## common overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay-gsm
-
-LOCAL_PATH := device/samsung/jfltedcm
-# Init files
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/sbin/recovery-prepprocess:root/sbin/recovery-prepprocess
-
-# Default Locale
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.locale.language=ja \
-    ro.product.locale.region=JP
-
 
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)
