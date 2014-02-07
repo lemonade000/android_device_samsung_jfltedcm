@@ -30,6 +30,7 @@
 TARGET_OTA_ASSERT_DEVICE := jfltedcm
 
 # Kernel
+TARGET_KERNEL_SOURCE         := kernel/samsung/jfdcm
 TARGET_KERNEL_CONFIG         := jf_dcm_defconfig
 
 # loki
