@@ -13,7 +13,6 @@
   },
   {
     "repository": "android_kernel_samsung_jfdcm",
-    "branch": "kbc-aosp-kk",
     "target_path": "kernel/samsung/jfdcm"
   },
   {
