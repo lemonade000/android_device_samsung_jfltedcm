@@ -24,10 +24,11 @@
 include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
+-include vendor/samsung/jfltedcm/BoardConfigVendor.mk
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jflteatt,jflte
+TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte
 
 # loki
-TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jflteatt/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltedcm/releasetools
