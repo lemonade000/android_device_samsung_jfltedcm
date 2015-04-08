@@ -27,6 +27,7 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 -include vendor/samsung/jfltedcm/BoardConfigVendor.mk
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
+TARGET_KERNEL_CONFIG := cyanogen_jfltedcm_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte
 
