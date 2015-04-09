@@ -33,3 +33,7 @@ TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte
 
 # loki
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltedcm/releasetools
+
+# Linker
+BOARD_NO_CHECK_PIE_BINARY := true
+
