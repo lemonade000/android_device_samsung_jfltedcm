@@ -36,4 +36,3 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltedcm/releasetools
 
 # Linker
 BOARD_NO_CHECK_PIE_BINARY := true
-

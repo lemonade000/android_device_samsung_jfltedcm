@@ -33,5 +33,9 @@ PRODUCT_COPY_FILES += \
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltedcm/overlay
 
+# Mozc
+PRODUCT_PACKAGES += \
+    Mozc
+
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)
