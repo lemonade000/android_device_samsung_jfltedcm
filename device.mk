@@ -24,10 +24,10 @@ PRODUCT_PACKAGES += \
     reovery-transform.sh
 
 PRODUCT_COPY_FILES += \
-    device/samsung/jflteatt/releasetools/loki.sh:install/bin/loki.sh
+    device/samsung/jfltedcm/releasetools/loki.sh:install/bin/loki.sh
 
 ## device overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/jflteatt/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltedcm/overlay
 
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)

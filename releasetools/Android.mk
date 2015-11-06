@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter jflteatt,$(TARGET_DEVICE)),)
+ifneq ($(filter jfltedcm,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
