@@ -26,6 +26,10 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG := kbc_aosp_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/jfdcm
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte
 
