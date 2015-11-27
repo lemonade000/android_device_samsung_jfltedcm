@@ -27,7 +27,7 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := kbc_aosp_defconfig
+TARGET_KERNEL_CONFIG := cyanogen_jfltedcm_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/jfdcm
 
 # Assert
