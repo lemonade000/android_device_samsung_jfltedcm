@@ -31,6 +31,12 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG := cyanogen_jfltedcm_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/jfdcm
 
+# TWRP
+ifeq ($(TARGET_RECOVERY),twrp)
+#overwrite TARGET_KERNEL_CONFIG
+TARGET_KERNEL_CONFIG := cyanogen_jfltedcm_twrp_defconfig
+endif
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte
 
