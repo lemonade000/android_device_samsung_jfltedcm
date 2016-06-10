@@ -38,7 +38,7 @@ TARGET_KERNEL_CONFIG := cyanogen_jfltedcm_twrp_defconfig
 endif
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte
+TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte,SC-04E
 
 # loki
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltedcm/releasetools
