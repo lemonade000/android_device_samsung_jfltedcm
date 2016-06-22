@@ -33,7 +33,8 @@ TARGET_KERNEL_SOURCE := kernel/samsung/jfdcm
 
 # TWRP
 ifeq ($(TARGET_RECOVERY),twrp)
-#overwrite TARGET_KERNEL_CONFIG
+#overwrite
+TARGET_KERNEL_SOURCE := kernel/samsung/jf-twrp
 TARGET_KERNEL_CONFIG := cyanogen_jfltedcm_twrp_defconfig
 endif
 
