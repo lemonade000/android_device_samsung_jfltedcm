@@ -45,4 +45,4 @@ TARGET_OTA_ASSERT_DEVICE := jfltedcm,jflte,SC-04E
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltedcm/releasetools
 
 # Properties
-TARGET_SYSTEM_PROP += device/samsung/jflteatt/system.prop
+TARGET_SYSTEM_PROP += device/samsung/jfltedcm/system.prop
